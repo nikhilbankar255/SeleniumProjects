@@ -1,0 +1,50 @@
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Compiled Java files
+*.class
+bin/
+
+# Eclipse workspace files
+.metadata/
+.settings/
+*.tmp
+*.bak
+*.swp
+*~
+
+# TestNG generated reports
+test-output/
+testng-reports/
+
+# Extent Reports
+Reports/
+Screenshots/
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Sensitive information
+.env
+.env.*
+!.env.example
+*secret*.properties
+*credentials*.properties
+
+# Local configuration
+config.local.properties

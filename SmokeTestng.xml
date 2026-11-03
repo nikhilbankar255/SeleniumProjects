@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Automation suite">
+	<listeners>
+		<listener class-name="Utility.ExtentTestListener"/>
+	</listeners>
+  <test name="Smoke test">
+    <classes>
+      <class name="TestCases.TestSearchAddVegies"/>
+      <class name="TestCases.TestCheckout"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- Smoke -->
