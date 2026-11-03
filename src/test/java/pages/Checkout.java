@@ -142,7 +142,7 @@ public class Checkout {
 	public void homepageValidation()
 	{
 		waitUtil.waitForElevisibility(driver, homePage);
-		Assert.assertEquals(homePage.getText(), "Flight Bookin");
+		Assert.assertEquals(homePage.getText(), "Flight Booking");
 		System.out.println("End to end flow completed...");
 	}
 	
